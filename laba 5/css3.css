@@ -1,0 +1,45 @@
+body{
+background-image: url(funny-cat-36.gif), url(13ac71f0faa22b6548d1921520b65717.jpg);
+background-size: 400px 350px, 20% 20%;
+background-position: left, right;
+background-repeat: no-repeat;
+}
+p, h1, h2, h3, ol{
+
+    color: hsl(0, 100%, 17%);
+text-shadow:2px 2px 2px #FFAE00, 2px 2px 15px #1435AD
+}
+table{
+    border-radius: 10px;
+    
+}
+td, tr{
+
+    border-radius: 20px;
+}
+div{
+text-shadow:2px 2px 2px #FFAE00, 2px 2px 15px #1435AD;
+height: 150px;
+background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+#wrap1
+{
+border:1px #000 solid;
+width:200px;
+padding:10px;
+font-size:1.5em;
+transition: width 4s;
+
+}
+#wrap1:hover
+{
+    color: rgba(197, 221, 232, 0.897);
+width:500px;
+background-color: #880045;
+}
+h2.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+

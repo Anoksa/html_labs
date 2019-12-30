@@ -1,0 +1,46 @@
+h1, h2, h3, span
+{ 
+    font-family: Arial;
+    font-style: italic;
+    color: white;
+}
+p   {
+    font-family: Tahoma;
+    font-size: 24;
+    }
+.p1 {
+    text-align: center;
+    letter-spacing : 2;
+    font-weight: lighter;
+    color: #ffffff;
+	font-size: 15;
+}
+.p2 {
+    font-family: Gabriola;
+    text-align: right;
+    word-spacing : 3;
+    text-decoration :	underline;
+    font-style :italic;
+    font-weight: bold;
+    color: #C71585;
+	font-size: 125%;
+    }
+#span1{
+    color:#0000ff;
+    font-size: 25;
+    font-style :normal;
+    text-decoration: underline;
+}
+#span2{
+    color:#00ffff;
+    font-size: 35;
+    font-style :normal;
+    text-decoration: overline;
+}
+.center{
+    text-align: center;
+    
+}
+.ul {
+    list-style-type: square;
+}

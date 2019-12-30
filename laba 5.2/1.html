@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Canvas в HTML5</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="300" height="200"
+            style="background-color:#eee; border:1px solid #ccc;">
+            Ваш браузер не поддерживает Canvas
+        </canvas>
+        <script>
+           var canvas = document.getElementById("myCanvas"), 
+    x = canvas.getContext("2d");
+    x.beginPath();
+    x.moveTo(30, 20);
+    x.lineTo(30,150)
+    x.lineTo(250,150)
+    x.strokeStyle = "red";
+    x.stroke();
+    x.font='15 px Verdana';
+    x.fillStyle="#60016d";
+
+    x.fillText("500",10, 115);
+    x.fillText("1000",5, 80);
+    x.fillText("1500",5, 45);
+
+    x.fillStyle="green";
+    x.fillRect(50, 120, 20, 30);
+
+    /*var gradient=x.createLinearGradient(0,0,0,300);
+    gradient.addColorStop(0,"green");
+    gradient.addColorStop(1,"yellow");
+    x.fillStyle=gradient;  
+    x.fill();*/
+    x.fillRect(100, 75, 20, 75);
+    
+    
+    x.shadowOffsetX=3;
+    x.shadowOffsetY=3;
+    x.shadowBlur=5;
+    x.shadowColor='black';
+    x.fillStyle='#ffaa00';
+    x.fillRect(145, 105, 20, 45);
+        </script>
+    </body>
+</html>

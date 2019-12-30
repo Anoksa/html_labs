@@ -1,0 +1,44 @@
+<html>
+        <meta charset="UTF-8">
+    <head>
+
+<title>HTML5</title>
+
+<style>
+mark{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(223, 0, 0);
+    font-style: italic;
+    background-color: black;
+}
+div{
+    border: black 2px dashed;
+    text-align: center;
+    background-color: pink;
+}
+</style>
+    </head>
+
+    <body>
+        <div>
+        <h2>Я, <mark>Иванюк Иван Иванович</mark>, изучаю HTML5</h2>
+
+        <video src="1.mp4" width="500" height="300" controls="controls"></video>
+            <br>
+        <audio src="2.mp3" controls="autoplay"></audio>
+            <script>
+                    function getCoordinates() {
+                    navigator.geolocation.getCurrentPosition(showCoordinates);
+                    }
+                    function showCoordinates(position) {
+                    document.write("Широта:" + position.coords.latitude + "<br/>");
+                    document.write("Долгота:" + position.coords.longitude);
+                    }
+                    </script>
+                    <body>
+                    <p>Для считывания координат нажмите на кнопку</p>
+                    <input type="button" value=" Координаты" onclick ="getCoordinates()">
+                    <br>
+                </div>
+    </body>
+</html>
